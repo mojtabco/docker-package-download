@@ -7,7 +7,6 @@ This script automates the process of downloading Docker packages for various dis
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Limitations](#limitations)
 - [Contributing](#contributing)
 
 ### Prerequisites
@@ -36,11 +35,6 @@ To check if your distribution and architecture are supported, simply run the scr
 ### Dependencies
 
 - `curl`: Used to fetch the list of available Docker packages.
-
-### Limitations
-
-- This script currently supports Debian-based distributions (`DISTRIB_ID`) and their codenames (`DISTRIB_CODENAME`). 
-- It only downloads the latest version of each Docker component listed in the `TYPES` array.
 
 ### Contributing
 
